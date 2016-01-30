@@ -15,5 +15,3 @@ FOUNDATION_EXPORT double SHUtilVersionNumber;
 FOUNDATION_EXPORT const unsigned char SHUtilVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <SHUtil/PublicHeader.h>
-
-#import <SHUtil/SHURL-Swift.h>

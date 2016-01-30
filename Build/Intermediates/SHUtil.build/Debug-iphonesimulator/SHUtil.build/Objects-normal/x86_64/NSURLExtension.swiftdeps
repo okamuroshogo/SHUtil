@@ -7,11 +7,11 @@ provides-member:
 provides-dynamic-lookup:
 - "parseGetArgments"
 depends-top-level:
+- !private "StringLiteralType"
 - "String"
 - "Dictionary"
-- "NSURL"
 - !private "UnicodeScalarType"
-- !private "StringLiteralType"
+- "NSURL"
 depends-member:
 - !private ["PSs9AnyObject", "Dictionary"]
 - !private ["PSs9AnyObject", "absoluteString"]

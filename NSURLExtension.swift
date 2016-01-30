@@ -1,12 +1,12 @@
 //
-//  SHURL.swift
+//  NSURLExtension.swift
 //  SHUtil
 //
 //  Created by shogo okamuro on 1/31/16.
 //  Copyright © 2016 shogo okamuro. All rights reserved.
 //
 
-extension NSURL{
+public extension NSURL{
     func parseGetArgments() -> Dictionary<String, String>{
         let originalUrl = self.absoluteString
         let url = originalUrl.componentsSeparatedByString("?")

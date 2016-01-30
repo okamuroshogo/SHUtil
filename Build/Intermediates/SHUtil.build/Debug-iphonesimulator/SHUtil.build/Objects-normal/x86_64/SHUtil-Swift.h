@@ -93,6 +93,7 @@ typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
 
 @interface NSURL (SWIFT_EXTENSION(SHUtil))
+- (NSDictionary<NSString *, NSString *> * __nonnull)parseGetArgments;
 @end
 
 #pragma clang diagnostic pop
