@@ -10,6 +10,8 @@
 		2A9A95E91C5D28E3007BDA52 /* SHUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A9A95E81C5D28E3007BDA52 /* SHUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2A9A95F01C5D28E3007BDA52 /* SHUtil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A9A95E51C5D28E3007BDA52 /* SHUtil.framework */; };
 		2A9A95F51C5D28E3007BDA52 /* SHUtilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9A95F41C5D28E3007BDA52 /* SHUtilTests.swift */; };
+		2A9A96001C5D2A61007BDA52 /* SHUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9A95FF1C5D2A61007BDA52 /* SHUtil.swift */; };
+		2A9A96021C5D2A83007BDA52 /* SHURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9A96011C5D2A83007BDA52 /* SHURL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		2A9A95EF1C5D28E3007BDA52 /* SHUtilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHUtilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A9A95F41C5D28E3007BDA52 /* SHUtilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHUtilTests.swift; sourceTree = "<group>"; };
 		2A9A95F61C5D28E3007BDA52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A9A95FF1C5D2A61007BDA52 /* SHUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHUtil.swift; sourceTree = "<group>"; };
+		2A9A96011C5D2A83007BDA52 /* SHURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHURL.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				2A9A95E81C5D28E3007BDA52 /* SHUtil.h */,
+				2A9A95FF1C5D2A61007BDA52 /* SHUtil.swift */,
+				2A9A96011C5D2A83007BDA52 /* SHURL.swift */,
 				2A9A95EA1C5D28E3007BDA52 /* Info.plist */,
 			);
 			path = SHUtil;
@@ -194,6 +200,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A9A96021C5D2A83007BDA52 /* SHURL.swift in Sources */,
+				2A9A96001C5D2A61007BDA52 /* SHUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +316,7 @@
 		2A9A95FA1C5D28E3007BDA52 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -318,12 +327,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.planningdev.SHUtil;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		2A9A95FB1C5D28E3007BDA52 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
