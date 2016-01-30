@@ -1,6 +1,6 @@
 version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
 options: "34e16ee3acc182db1488dcd347392a5c"
-build_time: [507497236, 629465000]
+build_time: [507497474, 965823000]
 inputs:
+  "/Users/okasho/iOSProject/SHUtil/SHUtil/NSURLExtension.swift": [507497236, 0]
   "/Users/okasho/iOSProject/SHUtil/SHUtil/SHUtil.swift": [507490145, 0]
-  "/Users/okasho/iOSProject/SHUtil/NSURLExtension.swift": [507497236, 0]
