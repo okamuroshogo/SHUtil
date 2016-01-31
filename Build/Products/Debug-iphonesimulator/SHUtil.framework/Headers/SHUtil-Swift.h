@@ -87,6 +87,7 @@ typedef int swift_int3  __attribute__((__ext_vector_type__(3)));
 typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 #if defined(__has_feature) && __has_feature(modules)
 @import Foundation;
+@import ObjectiveC;
 @import UIKit;
 @import CoreGraphics;
 #endif
@@ -99,8 +100,20 @@ typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 @end
 
 
+@interface NSObject (SWIFT_EXTENSION(SHUtil))
++ (NSString * __nonnull)className;
+@property (nonatomic, readonly, copy) NSString * __nonnull className;
+@end
+
+
 @interface NSURL (SWIFT_EXTENSION(SHUtil))
 - (NSDictionary<NSString *, NSString *> * __nonnull)parseGetArgments;
+@end
+
+
+@interface UIAlertController (SWIFT_EXTENSION(SHUtil))
++ (UIAlertController * __nonnull)singleBtnAlertWithTitle:(NSString * __nonnull)title message:(NSString * __nonnull)message completion:(void (^ __nullable)(void))completion;
++ (UIAlertController * __nonnull)doubleBtnAlertWithTitle:(NSString * __nonnull)title message:(NSString * __nonnull)message otherBtnTitle:(NSString * __nonnull)otherBtnTitle completion:(void (^ __nullable)(void))completion;
 @end
 
 
@@ -124,6 +137,21 @@ typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 @property (nonatomic) CGFloat cornerRadius;
 @property (nonatomic) CGFloat borderWidth;
 @property (nonatomic, strong) UIColor * __nonnull borderColor;
+@end
+
+
+@interface UIView (SWIFT_EXTENSION(SHUtil))
+@property (nonatomic) CGFloat x;
+@property (nonatomic) CGFloat y;
+@property (nonatomic) CGFloat width;
+@property (nonatomic) CGFloat height;
+@property (nonatomic) CGFloat top;
+@property (nonatomic) CGFloat bottom;
+@property (nonatomic) CGFloat left;
+@property (nonatomic) CGFloat right;
+@property (nonatomic) CGFloat midX;
+@property (nonatomic) CGFloat midY;
+@property (nonatomic) CGPoint centerPoint;
 @end
 
 #pragma clang diagnostic pop
