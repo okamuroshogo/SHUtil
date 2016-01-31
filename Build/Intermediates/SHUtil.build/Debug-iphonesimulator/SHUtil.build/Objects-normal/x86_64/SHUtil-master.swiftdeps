@@ -1,6 +1,11 @@
 version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
 options: "34e16ee3acc182db1488dcd347392a5c"
-build_time: [507497474, 965823000]
+build_time: [507516244, 581366000]
 inputs:
   "/Users/okasho/iOSProject/SHUtil/SHUtil/NSURLExtension.swift": [507497236, 0]
+  "/Users/okasho/iOSProject/SHUtil/SHUtil/StringExtension.swift": [507516106, 0]
+  "/Users/okasho/iOSProject/SHUtil/SHUtil/UIViewExtension.swift": [507516070, 0]
   "/Users/okasho/iOSProject/SHUtil/SHUtil/SHUtil.swift": [507490145, 0]
+  "/Users/okasho/iOSProject/SHUtil/SHUtil/UILabelExtension.swift": [507516244, 0]
+  "/Users/okasho/iOSProject/SHUtil/SHUtil/UIColorExtension.swift": [507516151, 0]
+  "/Users/okasho/iOSProject/SHUtil/SHUtil/NSDictionayExtension.swift": [507516202, 0]

@@ -87,13 +87,43 @@ typedef int swift_int3  __attribute__((__ext_vector_type__(3)));
 typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 #if defined(__has_feature) && __has_feature(modules)
 @import Foundation;
+@import UIKit;
+@import CoreGraphics;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
 
+@interface NSDictionary (SWIFT_EXTENSION(SHUtil))
+- (NSString * __nonnull)httpBuildQuery;
+@end
+
+
 @interface NSURL (SWIFT_EXTENSION(SHUtil))
 - (NSDictionary<NSString *, NSString *> * __nonnull)parseGetArgments;
+@end
+
+
+@interface UIColor (SWIFT_EXTENSION(SHUtil))
++ (UIColor * __nonnull)colorWith255:(NSInteger)red green:(NSInteger)green blue:(NSInteger)blue alpha:(NSInteger)alpha;
++ (UIColor * __nonnull)colorWith255:(NSInteger)red green:(NSInteger)green blue:(NSInteger)blue;
++ (UIColor * __nonnull)colorWithHexAlpha:(uint32_t)hex;
++ (UIColor * __nonnull)colorWithHex:(uint32_t)hex;
++ (UIColor * __nonnull)colorWithHexAlphaString:(NSString * __nonnull)hex;
++ (UIColor * __nonnull)colorWithHexString:(NSString * __nonnull)hex;
+@end
+
+
+@interface UILabel (SWIFT_EXTENSION(SHUtil))
+- (void)setFontByString:(NSString * __nonnull)fontName;
+- (void)setFontByStringWithSize:(NSString * __nonnull)fontName size:(CGFloat)size;
+@end
+
+
+@interface UIView (SWIFT_EXTENSION(SHUtil))
+@property (nonatomic) CGFloat cornerRadius;
+@property (nonatomic) CGFloat borderWidth;
+@property (nonatomic, strong) UIColor * __nonnull borderColor;
 @end
 
 #pragma clang diagnostic pop

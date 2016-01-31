@@ -1,0 +1,153 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo7UILabel", ""]
+- ["CSo7UILabel", "setFontByString"]
+- ["CSo7UILabel", "setFontByStringWithSize"]
+provides-dynamic-lookup:
+- "setFontByStringWithSize"
+- "setFontByString"
+depends-top-level:
+- "CGFloat"
+- !private "UIFont"
+- "UILabel"
+- "String"
+depends-member:
+- !private ["PSs9AnyObject", "UIFont"]
+- !private ["PSs9AnyObject", "font"]
+- !private ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "pointSize"]
+- ["PSs9AnyObject", "setFontByString"]
+- ["PSs9AnyObject", "setFontByStringWithSize"]
+- !private ["PSs11CVarArgType", "UIFont"]
+- !private ["PSs11CVarArgType", "font"]
+- !private ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "pointSize"]
+- ["PSs11CVarArgType", "setFontByString"]
+- ["PSs11CVarArgType", "setFontByStringWithSize"]
+- !private ["PSs23CustomStringConvertible", "UIFont"]
+- !private ["PSs23CustomStringConvertible", "font"]
+- !private ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "pointSize"]
+- ["PSs23CustomStringConvertible", "setFontByString"]
+- ["PSs23CustomStringConvertible", "setFontByStringWithSize"]
+- !private ["PSs9Equatable", "UIFont"]
+- !private ["PSs9Equatable", "font"]
+- !private ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "pointSize"]
+- ["PSs9Equatable", "setFontByString"]
+- ["PSs9Equatable", "setFontByStringWithSize"]
+- !private ["PSs8Hashable", "UIFont"]
+- !private ["PSs8Hashable", "font"]
+- !private ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "pointSize"]
+- ["PSs8Hashable", "setFontByString"]
+- ["PSs8Hashable", "setFontByStringWithSize"]
+- !private ["PSo8NSCoding", "UIFont"]
+- !private ["PSo8NSCoding", "font"]
+- ["PSo8NSCoding", "setFontByString"]
+- ["PSo8NSCoding", "setFontByStringWithSize"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "pointSize"]
+- ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "UIFont"]
+- !private ["CSo8NSObject", "font"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "pointSize"]
+- ["CSo8NSObject", "setFontByString"]
+- ["CSo8NSObject", "setFontByStringWithSize"]
+- !private ["PSo16NSObjectProtocol", "UIFont"]
+- !private ["PSo16NSObjectProtocol", "font"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "pointSize"]
+- ["PSo16NSObjectProtocol", "setFontByString"]
+- ["PSo16NSObjectProtocol", "setFontByStringWithSize"]
+- !private ["PSo29UIAccessibilityIdentification", "UIFont"]
+- !private ["PSo29UIAccessibilityIdentification", "font"]
+- ["PSo29UIAccessibilityIdentification", "setFontByString"]
+- ["PSo29UIAccessibilityIdentification", "setFontByStringWithSize"]
+- !private ["PSo12UIAppearance", "UIFont"]
+- !private ["PSo12UIAppearance", "font"]
+- ["PSo12UIAppearance", "setFontByString"]
+- ["PSo12UIAppearance", "setFontByStringWithSize"]
+- !private ["PSo21UIAppearanceContainer", "UIFont"]
+- !private ["PSo21UIAppearanceContainer", "font"]
+- ["PSo21UIAppearanceContainer", "setFontByString"]
+- ["PSo21UIAppearanceContainer", "setFontByStringWithSize"]
+- !private ["PSo17UICoordinateSpace", "UIFont"]
+- !private ["PSo17UICoordinateSpace", "font"]
+- ["PSo17UICoordinateSpace", "setFontByString"]
+- ["PSo17UICoordinateSpace", "setFontByStringWithSize"]
+- !private ["PSo13UIDynamicItem", "UIFont"]
+- !private ["PSo13UIDynamicItem", "font"]
+- ["PSo13UIDynamicItem", "setFontByString"]
+- ["PSo13UIDynamicItem", "setFontByStringWithSize"]
+- !private ["PSo18UIFocusEnvironment", "UIFont"]
+- !private ["PSo18UIFocusEnvironment", "font"]
+- ["PSo18UIFocusEnvironment", "setFontByString"]
+- ["PSo18UIFocusEnvironment", "setFontByStringWithSize"]
+- !private ["CSo6UIFont", "init"]
+- !private ["CSo6UIFont", "pointSize"]
+- ["CSo7UILabel", "CGFloat"]
+- ["CSo7UILabel", "String"]
+- !private ["CSo7UILabel", "UIFont"]
+- !private ["CSo7UILabel", "font"]
+- ["CSo7UILabel", "setFontByString"]
+- ["CSo7UILabel", "setFontByStringWithSize"]
+- ["CSo11UIResponder", "CGFloat"]
+- ["CSo11UIResponder", "String"]
+- !private ["CSo11UIResponder", "UIFont"]
+- !private ["CSo11UIResponder", "font"]
+- ["CSo11UIResponder", "setFontByString"]
+- ["CSo11UIResponder", "setFontByStringWithSize"]
+- !private ["PSo18UITraitEnvironment", "UIFont"]
+- !private ["PSo18UITraitEnvironment", "font"]
+- ["PSo18UITraitEnvironment", "setFontByString"]
+- ["PSo18UITraitEnvironment", "setFontByStringWithSize"]
+- ["CSo6UIView", "CGFloat"]
+- ["CSo6UIView", "String"]
+- !private ["CSo6UIView", "UIFont"]
+- !private ["CSo6UIView", "font"]
+- ["CSo6UIView", "setFontByString"]
+- ["CSo6UIView", "setFontByStringWithSize"]
+- !private ["PSs12_Reflectable", "UIFont"]
+- !private ["PSs12_Reflectable", "font"]
+- ["PSs12_Reflectable", "setFontByString"]
+- ["PSs12_Reflectable", "setFontByStringWithSize"]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "CSo6UIFont"
+- "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/okasho/iOSProject/SHUtil/SHUtil/SHUtil.h"
+- "/Users/okasho/iOSProject/SHUtil/Build/Intermediates/SHUtil.build/Debug-iphonesimulator/SHUtil.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "f9a46fa5f1b2ba034470f17ff0b3b03e"

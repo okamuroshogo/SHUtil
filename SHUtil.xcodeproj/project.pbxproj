@@ -12,6 +12,11 @@
 		2A9A95F51C5D28E3007BDA52 /* SHUtilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9A95F41C5D28E3007BDA52 /* SHUtilTests.swift */; };
 		2A9A96001C5D2A61007BDA52 /* SHUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9A95FF1C5D2A61007BDA52 /* SHUtil.swift */; };
 		2A9A96191C5D4702007BDA52 /* NSURLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9A96181C5D4702007BDA52 /* NSURLExtension.swift */; };
+		2A9A961B1C5D8F88007BDA52 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9A961A1C5D8F88007BDA52 /* UIViewExtension.swift */; };
+		2A9A961D1C5D8FBA007BDA52 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9A961C1C5D8FBA007BDA52 /* StringExtension.swift */; };
+		2A9A961F1C5D8FE4007BDA52 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9A961E1C5D8FE4007BDA52 /* UIColorExtension.swift */; };
+		2A9A96211C5D9021007BDA52 /* NSDictionayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9A96201C5D9021007BDA52 /* NSDictionayExtension.swift */; };
+		2A9A96231C5D904B007BDA52 /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9A96221C5D904B007BDA52 /* UILabelExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +38,11 @@
 		2A9A95F61C5D28E3007BDA52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A9A95FF1C5D2A61007BDA52 /* SHUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHUtil.swift; sourceTree = "<group>"; };
 		2A9A96181C5D4702007BDA52 /* NSURLExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSURLExtension.swift; sourceTree = "<group>"; };
+		2A9A961A1C5D8F88007BDA52 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		2A9A961C1C5D8FBA007BDA52 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		2A9A961E1C5D8FE4007BDA52 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		2A9A96201C5D9021007BDA52 /* NSDictionayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDictionayExtension.swift; sourceTree = "<group>"; };
+		2A9A96221C5D904B007BDA52 /* UILabelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +88,11 @@
 				2A9A95E81C5D28E3007BDA52 /* SHUtil.h */,
 				2A9A95FF1C5D2A61007BDA52 /* SHUtil.swift */,
 				2A9A96181C5D4702007BDA52 /* NSURLExtension.swift */,
+				2A9A961A1C5D8F88007BDA52 /* UIViewExtension.swift */,
+				2A9A961C1C5D8FBA007BDA52 /* StringExtension.swift */,
+				2A9A961E1C5D8FE4007BDA52 /* UIColorExtension.swift */,
+				2A9A96201C5D9021007BDA52 /* NSDictionayExtension.swift */,
+				2A9A96221C5D904B007BDA52 /* UILabelExtension.swift */,
 				2A9A95EA1C5D28E3007BDA52 /* Info.plist */,
 			);
 			path = SHUtil;
@@ -200,8 +215,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A9A961D1C5D8FBA007BDA52 /* StringExtension.swift in Sources */,
+				2A9A961B1C5D8F88007BDA52 /* UIViewExtension.swift in Sources */,
+				2A9A961F1C5D8FE4007BDA52 /* UIColorExtension.swift in Sources */,
 				2A9A96191C5D4702007BDA52 /* NSURLExtension.swift in Sources */,
+				2A9A96231C5D904B007BDA52 /* UILabelExtension.swift in Sources */,
 				2A9A96001C5D2A61007BDA52 /* SHUtil.swift in Sources */,
+				2A9A96211C5D9021007BDA52 /* NSDictionayExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
