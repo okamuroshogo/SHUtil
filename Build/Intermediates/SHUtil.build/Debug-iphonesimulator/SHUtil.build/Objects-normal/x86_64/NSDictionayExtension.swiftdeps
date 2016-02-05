@@ -7,15 +7,15 @@ provides-member:
 provides-dynamic-lookup:
 - "httpBuildQuery"
 depends-top-level:
-- !private "+="
-- !private "++"
-- !private "NSCharacterSet"
 - "NSDictionary"
-- "String"
 - !private "+"
 - "UnicodeScalarType"
+- "String"
 - !private "NSArray"
 - "StringLiteralType"
+- !private "++"
+- !private "+="
+- !private "NSCharacterSet"
 - !private "Int"
 - !private "AnyObject"
 depends-member:

@@ -10,10 +10,10 @@ provides-member:
 - ["VSC6CGRect", "init"]
 provides-dynamic-lookup:
 depends-top-level:
-- "CGPoint"
 - "CGFloat"
-- "CGRect"
 - "CGSize"
+- "CGPoint"
+- "CGRect"
 depends-member:
 - ["VSC7CGPoint", "CGFloat"]
 - ["VSC7CGPoint", "init"]

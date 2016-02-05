@@ -10,10 +10,10 @@ provides-dynamic-lookup:
 - "className"
 depends-top-level:
 - !private "NSStringFromClass"
+- !private "StringLiteralType"
+- "NSObject"
 - !private "UnicodeScalarType"
 - "String"
-- "NSObject"
-- !private "StringLiteralType"
 depends-member:
 - !private ["PSs9AnyObject", "NSStringFromClass"]
 - !private ["PSs9AnyObject", "className"]

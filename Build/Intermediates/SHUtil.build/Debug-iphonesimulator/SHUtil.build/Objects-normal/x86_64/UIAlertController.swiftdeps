@@ -6,14 +6,14 @@ provides-member:
 - ["CSo17UIAlertController", "singleBtnAlertWithTitle"]
 - ["CSo17UIAlertController", "doubleBtnAlertWithTitle"]
 provides-dynamic-lookup:
-- "singleBtnAlertWithTitle"
 - "doubleBtnAlertWithTitle"
+- "singleBtnAlertWithTitle"
 depends-top-level:
+- "UIAlertController"
 - "Void"
 - !private "UIAlertAction"
-- "UIAlertController"
-- !private "StringLiteralType"
 - "String"
+- !private "StringLiteralType"
 depends-member:
 - !private ["PSs9AnyObject", "UIAlertAction"]
 - !private ["PSs9AnyObject", "UIAlertController"]

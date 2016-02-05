@@ -10,23 +10,23 @@ provides-member:
 - ["CSo7UIColor", "colorWithHexAlphaString"]
 - ["CSo7UIColor", "colorWithHexString"]
 provides-dynamic-lookup:
-- "colorWith255"
-- "colorWith255"
-- "colorWithHexAlphaString"
-- "colorWithHexAlpha"
 - "colorWithHexString"
 - "colorWithHex"
+- "colorWithHexAlphaString"
+- "colorWithHexAlpha"
+- "colorWith255"
+- "colorWith255"
 depends-top-level:
-- "String"
-- !private "&"
-- !private "CGFloat"
 - "UIColor"
-- "UInt32"
-- !private "/"
-- !private "NSScanner"
+- "String"
 - !private "Int32"
 - "Int"
+- "UInt32"
 - !private ">>"
+- !private "NSScanner"
+- !private "/"
+- !private "CGFloat"
+- !private "&"
 depends-member:
 - !private ["PSs16AbsoluteValuable", "init"]
 - !private ["PSs9AnyObject", "CGFloat"]

@@ -9,8 +9,8 @@ provides-dynamic-lookup:
 - "setFontByStringWithSize"
 - "setFontByString"
 depends-top-level:
-- "CGFloat"
 - !private "UIFont"
+- "CGFloat"
 - "UILabel"
 - "String"
 depends-member:
