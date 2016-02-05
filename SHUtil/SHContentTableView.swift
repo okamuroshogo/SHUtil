@@ -35,11 +35,11 @@ public class SHContentTableView: UIView {
     var navi_view_height = CGFloat(64)
     
     //contentViewParts
-    var title_label: UILabel!
-    var search_btn: UIButton!
-    var sub_search_btn: UIButton!
-    var category_open: UIButton!
-    var sub_category_open: UIButton!
+    public var title_label: UILabel!
+    public var search_btn: UIButton!
+    public var sub_search_btn: UIButton!
+    public var category_open: UIButton!
+    public var sub_category_open: UIButton!
     
     
     //tabbarController
@@ -55,9 +55,9 @@ public class SHContentTableView: UIView {
     var title_vertical = CGFloat(0)
     
     //delegate
-    var delegate :SHContentTableViewdelegate? = nil
+    public var delegate :SHContentTableViewdelegate? = nil
     
-    func shcontentTableViewInit(tableView : UITableView){
+    public func shcontentTableViewInit(tableView : UITableView){
         contentPartsInit(tableView)
         updateFrame()
         setTableViewInset()
@@ -117,7 +117,7 @@ public class SHContentTableView: UIView {
         
     }
     
-    func updateFrame(){
+    public func updateFrame(){
         self.statusHeight = self.setStatusBarHight()
         self.navi_view_height = 50 + self.statusHeight
         let frame = self.frame
@@ -178,7 +178,7 @@ public class SHContentTableView: UIView {
         
     }
     
-    func scrollViewDidScroll(scrollView: UIScrollView) {
+    public func scrollViewDidScroll(scrollView: UIScrollView) {
         
         if scrollView.contentOffset.y <= -self.content_height  - self.navi_view_height {//- self.tab_height {
             rockContentView()
