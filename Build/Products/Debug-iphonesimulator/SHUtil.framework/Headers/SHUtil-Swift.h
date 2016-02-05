@@ -110,6 +110,14 @@ typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 - (NSDictionary<NSString *, NSString *> * __nonnull)parseGetArgments;
 @end
 
+@class NSCoder;
+
+SWIFT_CLASS("_TtC6SHUtil18SHContentTableView")
+@interface SHContentTableView : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 @interface UIAlertController (SWIFT_EXTENSION(SHUtil))
 + (UIAlertController * __nonnull)singleBtnAlertWithTitle:(NSString * __nonnull)title message:(NSString * __nonnull)message completion:(void (^ __nullable)(void))completion;

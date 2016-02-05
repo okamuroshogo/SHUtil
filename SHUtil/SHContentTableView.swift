@@ -8,13 +8,13 @@
 
 import UIKit
 
-protocol SHContentTableViewdelegate{
+public protocol SHContentTableViewdelegate{
     func tapLeftItem(sender: AnyObject)
     func tapRightItem(sender: AnyObject)
     func tapStatusBar(sender: AnyObject?)
 }
 
-class SHContentTableView: UIView {
+public class SHContentTableView: UIView {
     var tableView : UITableView!
     
     var status_btn : UIButton!
