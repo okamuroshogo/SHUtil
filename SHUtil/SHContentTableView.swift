@@ -15,15 +15,15 @@ public protocol SHContentTableViewdelegate{
 }
 
 public class SHContentTableView: UIView {
-    var tableView : UITableView!
+    public var tableView : UITableView!
     
-    var status_btn : UIButton!
+    public var status_btn : UIButton!
     
     //contentView
-    var top_image: UIImageView!
-    var contentView: UIView!
-    var navi_view: UIView!
-    var navi_imageview: UIImageView!
+    public var top_image: UIImageView!
+    public var contentView: UIView!
+    public var navi_view: UIView!
+    public var navi_imageview: UIImageView!
     
     let CONTENT_RATIO_W = CGFloat(16.0)
     let CONTENT_RATIO_H = CGFloat(9.0)

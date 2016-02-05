@@ -110,10 +110,19 @@ typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 - (NSDictionary<NSString *, NSString *> * __nonnull)parseGetArgments;
 @end
 
+@class UITableView;
+@class UIButton;
+@class UIImageView;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC6SHUtil18SHContentTableView")
 @interface SHContentTableView : UIView
+@property (nonatomic, strong) UITableView * __null_unspecified tableView;
+@property (nonatomic, strong) UIButton * __null_unspecified status_btn;
+@property (nonatomic, strong) UIImageView * __null_unspecified top_image;
+@property (nonatomic, strong) UIView * __null_unspecified contentView;
+@property (nonatomic, strong) UIView * __null_unspecified navi_view;
+@property (nonatomic, strong) UIImageView * __null_unspecified navi_imageview;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
