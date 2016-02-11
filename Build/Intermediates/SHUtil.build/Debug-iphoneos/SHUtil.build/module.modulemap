@@ -1,0 +1,10 @@
+framework module SHUtil {
+  umbrella header "SHUtil.h"
+
+  export *
+  module * { export * }
+}
+
+module SHUtil.Swift {
+    header "SHUtil-Swift.h"
+}
