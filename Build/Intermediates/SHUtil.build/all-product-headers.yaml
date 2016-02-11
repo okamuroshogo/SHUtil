@@ -4,12 +4,12 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/okasho/iOSProject/SHUtil/Build/Products/Debug-iphonesimulator/SHUtil.framework/Headers",
+      'name': "/Users/okasho/iOSProject/SHUtil/Build/Products/Debug-iphoneos/SHUtil.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "SHUtil-Swift.h",
-          'external-contents': "/Users/okasho/iOSProject/SHUtil/Build/Products/Debug-iphonesimulator/SHUtil.framework/Headers/SHUtil-Swift.h"
+          'external-contents': "/Users/okasho/iOSProject/SHUtil/Build/Products/Debug-iphoneos/SHUtil.framework/Headers/SHUtil-Swift.h"
         },
         {
           'type': 'file',
@@ -20,12 +20,12 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/okasho/iOSProject/SHUtil/Build/Products/Debug-iphonesimulator/SHUtil.framework/Modules",
+      'name': "/Users/okasho/iOSProject/SHUtil/Build/Products/Debug-iphoneos/SHUtil.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/okasho/iOSProject/SHUtil/Build/Intermediates/SHUtil.build/Debug-iphonesimulator/SHUtil.build/module.modulemap"
+          'external-contents': "/Users/okasho/iOSProject/SHUtil/Build/Intermediates/SHUtil.build/Debug-iphoneos/SHUtil.build/module.modulemap"
         }
       ]
     }

@@ -113,6 +113,8 @@ typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 @class UITableView;
 @class UIButton;
 @class UIImageView;
+@class UILabel;
+@class UIScrollView;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC6SHUtil18SHContentTableView")
@@ -123,6 +125,14 @@ SWIFT_CLASS("_TtC6SHUtil18SHContentTableView")
 @property (nonatomic, strong) UIView * __null_unspecified contentView;
 @property (nonatomic, strong) UIView * __null_unspecified navi_view;
 @property (nonatomic, strong) UIImageView * __null_unspecified navi_imageview;
+@property (nonatomic, strong) UILabel * __null_unspecified title_label;
+@property (nonatomic, strong) UIButton * __null_unspecified search_btn;
+@property (nonatomic, strong) UIButton * __null_unspecified sub_search_btn;
+@property (nonatomic, strong) UIButton * __null_unspecified category_open;
+@property (nonatomic, strong) UIButton * __null_unspecified sub_category_open;
+- (void)shcontentTableViewInit:(UITableView * __nonnull)tableView;
+- (void)updateFrame;
+- (void)scrollViewDidScroll:(UIScrollView * __nonnull)scrollView;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
