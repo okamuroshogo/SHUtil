@@ -27,3 +27,4 @@ public func SHprint(value:Any..., function: StaticString = __FUNCTION__, file: S
         Swift.print("[\(NSDate())]// \(message) //function: \(function), file: \(file), line: \(line)")
     #endif
 }
+

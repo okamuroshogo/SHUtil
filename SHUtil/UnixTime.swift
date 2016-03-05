@@ -8,8 +8,8 @@
 
 import UIKit
 
-class UNIXTime: NSObject {
-    static func convertStringForInt64(unixtime: Int64, format: String) -> String {
+public class UNIXTime: NSObject {
+        public static func convertStringForInt64(unixtime: Int64, format: String) -> String {
         let date = NSDate(timeIntervalSince1970: Double(unixtime))
         
         let formatter = NSDateFormatter()
@@ -18,7 +18,7 @@ class UNIXTime: NSObject {
         
     }
 }
-extension NSDate {
+public extension NSDate {
     convenience init?(jsonDate: String) {
         let prefix = "/Date("
         let suffix = ")/"
@@ -55,5 +55,40 @@ extension NSDate {
         // do an initialization first.)
         self.init(timeIntervalSince1970: 0)
         return nil
+    }
+}
+
+public enum WEEKS: Int {
+    case Sunday = 0
+    case Monday = 1
+    case Tuesday = 2
+    case Wednesday = 3
+    case Thursday = 4
+    case Friday = 5
+    case Saturday = 6
+    
+    public func name() -> String {
+        switch self{
+        case .Sunday:   return "日"
+        case .Monday:   return "月"
+        case .Tuesday:  return "火"
+        case .Wednesday:return "水"
+        case .Thursday: return "木"
+        case .Friday:   return "金"
+        case .Saturday: return "土"
+        }
+    }
+    
+    public static func getWeekWithNum(num: Int) -> WEEKS {
+        switch num {
+        case WEEKS.Sunday.rawValue: return .Sunday
+        case WEEKS.Monday.rawValue: return .Monday
+        case WEEKS.Tuesday.rawValue: return .Tuesday
+        case WEEKS.Wednesday.rawValue: return .Wednesday
+        case WEEKS.Thursday.rawValue: return .Thursday
+        case WEEKS.Friday.rawValue: return .Friday
+        case WEEKS.Saturday.rawValue: return .Saturday
+        default: return .Sunday
+        }
     }
 }
