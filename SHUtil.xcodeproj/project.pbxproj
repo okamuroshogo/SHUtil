@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A2D0F5A1CA95B1400D10D5A /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2D0F591CA95B1400D10D5A /* UIButtonExtension.swift */; };
 		2A4A6BFA1C64F08100B4BD6F /* SHContentTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4A6BF91C64F08100B4BD6F /* SHContentTableView.swift */; };
 		2A7A7C421C692E2000BEE966 /* UnixTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7A7C411C692E2000BEE966 /* UnixTime.swift */; };
 		2A9A95E91C5D28E3007BDA52 /* SHUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A9A95E81C5D28E3007BDA52 /* SHUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A2D0F591CA95B1400D10D5A /* UIButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 		2A4A6BF91C64F08100B4BD6F /* SHContentTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHContentTableView.swift; sourceTree = "<group>"; };
 		2A7A7C411C692E2000BEE966 /* UnixTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnixTime.swift; sourceTree = "<group>"; };
 		2A9A95E51C5D28E3007BDA52 /* SHUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SHUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +91,7 @@
 				2A9A96201C5D9021007BDA52 /* NSDictionayExtension.swift */,
 				2A9A96221C5D904B007BDA52 /* UILabelExtension.swift */,
 				2A7A7C411C692E2000BEE966 /* UnixTime.swift */,
+				2A2D0F591CA95B1400D10D5A /* UIButtonExtension.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				2A4A6BFA1C64F08100B4BD6F /* SHContentTableView.swift in Sources */,
 				2A9A962B1C5D9691007BDA52 /* CoreGraphicsExtension.swift in Sources */,
 				2A9A96271C5D940C007BDA52 /* NSObjectExtension.swift in Sources */,
+				2A2D0F5A1CA95B1400D10D5A /* UIButtonExtension.swift in Sources */,
 				2A9A96251C5D921B007BDA52 /* JSON.swift in Sources */,
 				2A7A7C421C692E2000BEE966 /* UnixTime.swift in Sources */,
 			);
