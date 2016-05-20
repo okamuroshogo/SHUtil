@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2A049B7C1CE8A05B001A42BD /* SHSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A049B7B1CE8A05B001A42BD /* SHSliderView.swift */; };
+		2A1944D91CEBCC50004E84A2 /* AlamofireSwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1944D81CEBCC50004E84A2 /* AlamofireSwiftyJSON.swift */; };
 		2A2D0F5A1CA95B1400D10D5A /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2D0F591CA95B1400D10D5A /* UIButtonExtension.swift */; };
 		2A4A6BFA1C64F08100B4BD6F /* SHContentTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4A6BF91C64F08100B4BD6F /* SHContentTableView.swift */; };
 		2A7A7C421C692E2000BEE966 /* UnixTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7A7C411C692E2000BEE966 /* UnixTime.swift */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		2A049B7B1CE8A05B001A42BD /* SHSliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHSliderView.swift; sourceTree = "<group>"; };
+		2A1944D81CEBCC50004E84A2 /* AlamofireSwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireSwiftyJSON.swift; sourceTree = "<group>"; };
 		2A2D0F591CA95B1400D10D5A /* UIButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 		2A4A6BF91C64F08100B4BD6F /* SHContentTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHContentTableView.swift; sourceTree = "<group>"; };
 		2A7A7C411C692E2000BEE966 /* UnixTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnixTime.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				2A9A95E81C5D28E3007BDA52 /* SHUtil.h */,
 				2A9A95FF1C5D2A61007BDA52 /* SHUtil.swift */,
 				2A9A96241C5D921B007BDA52 /* JSON.swift */,
+				2A1944D81CEBCC50004E84A2 /* AlamofireSwiftyJSON.swift */,
 				2A9A95EA1C5D28E3007BDA52 /* Info.plist */,
 			);
 			path = SHUtil;
@@ -259,6 +262,7 @@
 				2A9A961B1C5D8F88007BDA52 /* UIViewExtension.swift in Sources */,
 				2A9A961F1C5D8FE4007BDA52 /* UIColorExtension.swift in Sources */,
 				2A9A96191C5D4702007BDA52 /* NSURLExtension.swift in Sources */,
+				2A1944D91CEBCC50004E84A2 /* AlamofireSwiftyJSON.swift in Sources */,
 				2A9A96291C5D94F3007BDA52 /* UIAlertController.swift in Sources */,
 				2A9A96231C5D904B007BDA52 /* UILabelExtension.swift in Sources */,
 				2A9A96001C5D2A61007BDA52 /* SHUtil.swift in Sources */,
